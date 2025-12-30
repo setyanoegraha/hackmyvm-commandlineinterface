@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+hmv_cli.egg-info/
+.hmv/
+hmv.spec
+
+build/
+dist/
+
+.git

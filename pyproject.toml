@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hmv"
+version = "0.1.0"
+description = "HMV-CLI: HackMyVM Advanced Versatile Operations CLI - A powerful toolkit for machine management"
+authors = [
+    {name = "Ouba"}
+]
+dependencies = [
+    "httpx",
+    "typer",
+    "rich",
+    "selectolax",
+    "keyring",
+    "mega.py",
+]
+readme = "README.md"
+keywords = ["hackmyvm", "ctf", "cli", "cybersecurity", "havoc"]
+
+[project.urls]
+Homepage = "https://github.com/setyanoegraha/hackmyvm-commandlineinterface"
+Repository = "https://github.com/setyanoegraha/hackmyvm-commandlineinterface"
+
+[project.scripts]
+hmv = "hmv.main:main"
+
+[tool.setuptools]
+packages = ["hmv", "hmv.modules"]
+
+[tool.setuptools.package-dir]
+"" = "."

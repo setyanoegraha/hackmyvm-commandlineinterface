@@ -1,0 +1,6 @@
+httpx==0.28.1
+keyring==25.7.0
+mega.py==1.0.8
+rich==14.2.0
+selectolax==0.4.6
+typer==0.21.0
