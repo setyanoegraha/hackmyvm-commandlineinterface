@@ -4,6 +4,8 @@
 
 **HMV-CLI** is a modern command-line toolkit designed specifically for the HackMyVM community. It allows you to search for machines, download VMs, submit flags, and view community writeups efficiently directly from your terminal with fast performance and an intuitive interface.
 
+<img width="1887" height="733" alt="image" src="https://github.com/user-attachments/assets/d5f2352c-1dec-4e4e-9b75-d8d24b75d099" />
+
 ---
 
 ## Key Features
